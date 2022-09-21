@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-num = random.randint(-100, 100)
+num = random.randint(-10, 10)
 if num > 0:
 	print('%s, is positive'%(num))
 elif num < 0:
