@@ -88,7 +88,11 @@ class Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if not isinstance(rect_2, Rectangle):
             raise TypeError("rect_2 must be an instance of Rectangle")
+<<<<<<< HEAD
         if rect_1.area() >= rect_2.area():
+=======
+        if  rect_1.area() >= rect_2.area():
+>>>>>>> fc6c11fca05ceb5023d8a7a1ee027a54510822ad
             return rect_1
         else:
             return rect_2
@@ -96,4 +100,7 @@ class Rectangle:
     @classmethod
     def square(cls, size=0):
         return Rectangle(size, size)
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc6c11fca05ceb5023d8a7a1ee027a54510822ad
