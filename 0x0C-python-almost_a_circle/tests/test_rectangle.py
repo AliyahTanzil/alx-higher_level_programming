@@ -286,7 +286,7 @@
 #         with self.assertRaisesRegex(TypeError, "x must be an integer"):
 #             Rectangle(1, 2, True, 2)
 
-[O#     def test_list_x(self):
+#     def test_list_x(self):
 #         with self.assertRaisesRegex(TypeError, "x must be an integer"):
 #             Rectangle(1, 2, [1, 2, 3], 2)
 
@@ -294,7 +294,7 @@
 #         with self.assertRaisesRegex(TypeError, "x must be an integer"):
 #             Rectangle(1, 2, {1, 2, 3}, 2)
 
-[I#     def test_tuple_x(self):
+#     def test_tuple_x(self):
 #         with self.assertRaisesRegex(TypeError, "x must be an integer"):
 #             Rectangle(1, 2, (1, 2, 3), 2)
 
