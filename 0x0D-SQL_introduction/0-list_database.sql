@@ -1,3 +1,3 @@
-sts all databases of your MySQL server.
+-- creates all databases of your MySQL server.
 
 SHOW DATABASES;
